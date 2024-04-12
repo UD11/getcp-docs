@@ -1,19 +1,19 @@
-# Guide
+## Guide
 
 
-Github Repo Link -   [github-link](https://www.mkdocs.org).
+Github Repo Link -   [github-link](https://github.com/UD11/getcp-pkg?tab=readme-ov-file).
 
-#### Currently supported platforms
+### Currently supported platforms
 
 - [codechef.com](https://codechef.com)
 - [codeforces.com](https://codeforces.com)
 
-#### Installation
+### Installation
 
 ``` py
     pip install getcp
 ```
-#### Code
+### Code
 
 ```py
     from getcp import cc, cf
@@ -28,16 +28,16 @@ Github Repo Link -   [github-link](https://www.mkdocs.org).
     print(codeforces_stats
 ```
 
-##### Output
+#### Output
 
-###### get_codechef_stats('username')
+##### get_codechef_stats('username')
 
 ```json
     {'rating': '805', 'solved_problems': 30,
     'rank': 'Newbie'}
 ```
 
-###### get_codeforces_stats('username')
+##### get_codeforces_stats('username')
 
 ```json
     {'codechef_username': 'Wanjun Li',
@@ -45,7 +45,7 @@ Github Repo Link -   [github-link](https://www.mkdocs.org).
     'stars': '7★', 'contests_participated': 76}
 ```
 
-#### Dependencies
+### Dependencies
 
 - [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
 - [requests](https://pypi.org/project/requests/)
